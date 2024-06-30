@@ -4,7 +4,7 @@ editLink: false
 
 # uz_Latn
 
-##### All missed: 401
+##### All missed: 406
 
 
 ### json-inline
@@ -155,7 +155,7 @@ The given field has appeared in a data leak. Please choose a different field.
 
 ### json
 
-##### Missing: 338
+##### Missing: 339
 
 <table width="100%">
 <tr><th width="50%">
@@ -1290,6 +1290,15 @@ Kosovo
 </td><td width="50%">
 
 Kosovo
+
+</td></tr>
+<tr><td width="50%">
+
+length
+
+</td><td width="50%">
+
+length
 
 </td></tr>
 <tr><td width="50%">
@@ -3217,7 +3226,7 @@ Zip / Postal Code
 
 ### php-inline
 
-##### Missing: 31
+##### Missing: 33
 
 <table width="100%">
 <tr><th width="50%">
@@ -3254,6 +3263,15 @@ can
 </td><td width="50%">
 
 This field contains an unauthorized value.
+
+</td></tr>
+<tr><td width="50%">
+
+contains
+
+</td><td width="50%">
+
+This field is missing a required value.
 
 </td></tr>
 <tr><td width="50%">
@@ -3492,6 +3510,15 @@ This field is required when :other is accepted.
 </td></tr>
 <tr><td width="50%">
 
+required_if_declined
+
+</td><td width="50%">
+
+This field is required when :other is declined.
+
+</td></tr>
+<tr><td width="50%">
+
 ulid
 
 </td><td width="50%">
@@ -3516,7 +3543,7 @@ This field must be uppercase.
 
 ### php
 
-##### Missing: 18
+##### Missing: 20
 
 <table width="100%">
 <tr><th width="50%">
@@ -3535,6 +3562,15 @@ can
 </td><td width="50%">
 
 The :attribute field contains an unauthorized value.
+
+</td></tr>
+<tr><td width="50%">
+
+contains
+
+</td><td width="50%">
+
+The :attribute field is missing a required value.
 
 </td></tr>
 <tr><td width="50%">
@@ -3688,6 +3724,15 @@ required_if_accepted
 </td><td width="50%">
 
 The :attribute field is required when :other is accepted.
+
+</td></tr>
+<tr><td width="50%">
+
+required_if_declined
+
+</td><td width="50%">
+
+The :attribute field is required when :other is declined.
 
 </td></tr>
 </table>
